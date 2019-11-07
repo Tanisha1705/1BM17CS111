@@ -41,10 +41,10 @@ try:
     db.create_table()
 except:
     pass
-db.add_info(1, "sudarshan", 100, 99)
-db.add_info(2, "Sud", 150, 100)
-db.add_info(3, "Siddharth", 10, 3)
-db.add_info(4, "Tanisha", 3, 10)
+db.add_info(1, "ayusi", 100, 99)
+db.add_info(2, "vanshi", 100, 98)
+db.add_info(3, "riya", 97, 96)
+db.add_info(4, "Tanisha", 100, 97)
 print(db.display_all())
 db.update_student(3, 100, 30)
 print(db.display_all())
